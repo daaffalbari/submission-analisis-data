@@ -184,7 +184,7 @@ def sidebar(data):
   max_date = data['dteday'].max()
 
   with st.sidebar:
-    st.image('/workspaces/submission-analisis-data/dashboard/bicycle.png', width=150)
+    st.image('dashboard/bicycle.png', width=150)
 
     def on_change():
       st.session_state.date = date
