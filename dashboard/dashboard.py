@@ -199,8 +199,8 @@ def sidebar(data):
 
     return date
 # Load Cleaned Data
-day_df = pd.read_csv('./data/day_clean.csv')
-hour_df = pd.read_csv('./data/hour_clean.csv')
+day_df = pd.read_csv('./day_clean.csv')
+hour_df = pd.read_csv('./hour_clean.csv')
 
 # Sidebar
 date = sidebar(day_df)
