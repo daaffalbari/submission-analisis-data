@@ -184,7 +184,7 @@ def sidebar(data):
   max_date = data['dteday'].max()
 
   with st.sidebar:
-    st.image('./bicycle.png', width=150)
+    st.image('/workspaces/submission-analisis-data/dashboard/bicycle.png', width=150)
 
     def on_change():
       st.session_state.date = date
@@ -199,8 +199,8 @@ def sidebar(data):
 
     return date
 # Load Cleaned Data
-day_df = pd.read_csv('./day_clean.csv')
-hour_df = pd.read_csv('./hour_clean.csv')
+day_df = pd.read_csv('dashboard/day_clean.csv')
+hour_df = pd.read_csv('dashboard/hour_clean.csv')
 
 # Sidebar
 date = sidebar(day_df)
