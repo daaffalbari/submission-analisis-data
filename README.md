@@ -2,12 +2,11 @@
 
 ## Project Overview
 
-![image](https://github.com/daaffalbari/dashboard-bikesharing/assets/73302268/9a8c9aaf-7b7a-4302-91ce-1a11768ce5ac)
-
-Dalam project kali ini, saya membuat sebuah dashboard sederhana menggunakan library `Stereamlit`. Tidak hanya itu, proses pembuatannya juga membutuhkan library tambahan seperti `pandas`, `numpy`, 
+Dalam project kali ini, saya membuat sebuah dashboard sederhana menggunakan library `Stereamlit`. Tidak hanya itu, proses pembuatannya juga membutuhkan library tambahan seperti `pandas`, `numpy`,
 `matplotlib`, dan juga `seaborn`
 
 ## Directory
+
 - `/dashboard`: di dalamnya terdapat file `dashboard.py` yang digunakan untuk membuat dashboard menggunakan `streamlit`
 - `/data`: Berisi file yang berisi dataset yang digunakan dalam project ini
 - `README.md`: Merupakan file yang berisi informasi tentang project yang dikerjakan
@@ -15,6 +14,7 @@ Dalam project kali ini, saya membuat sebuah dashboard sederhana menggunakan libr
 - `requirements.txt`: Berisi informasi tentang library yang digunakan pada project ini
 
 ## Instalasi
+
 1. Clone this Repository
 
    ```bash
@@ -43,7 +43,7 @@ Dalam project kali ini, saya membuat sebuah dashboard sederhana menggunakan libr
 
    ```bash
    cd dashboard
-   streamlit run app.py
+   streamlit run dashboard.py
    ```
 
 6. Stop the application program by `ctrl + c`.
